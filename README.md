@@ -1,4 +1,4 @@
-# CodeIT Theme | Hugo
+# KubaQ Theme | Hugo
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/sunt-programator/CodeIT)](https://github.com/sunt-programator/CodeIT/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.78.1-blue)](https://gohugo.io/)
@@ -9,7 +9,7 @@
 
 > **CodeIT** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
 
-It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+It is based on the original [CodeIt](https://github.com/sunt-programator/CodeIT), [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
 Since the three themes have a similar look, if you have questions about their differences,
 read [Why to choose CodeIT](#question-why-choose-CodeIT) so that you can choose the one that works best for you.

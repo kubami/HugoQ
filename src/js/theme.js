@@ -418,19 +418,19 @@ class Theme {
   }
 
   initDetails() {
-    this.util.forEach(
-      document.getElementsByClassName("details"),
-      ($details) => {
-        const $summary = $details.getElementsByClassName("details-summary")[0];
-        $summary.addEventListener(
-          "click",
-          () => {
-            $details.classList.toggle("open");
-          },
-          false
-        );
-      }
-    );
+    // this.util.forEach(
+    //   document.getElementsByClassName("details"),
+    //   ($details) => {
+    //     const $summary = $details.getElementsByClassName("details-summary")[0];
+    //     $summary.addEventListener(
+    //       "click",
+    //       () => {
+    //         $details.classList.toggle("open");
+    //       },
+    //       false
+    //     );
+    //   }
+    // );
   }
 
   initLightGallery() {
@@ -469,17 +469,17 @@ class Theme {
           $header.className = "code-header " + $code.className.toLowerCase();
           const $title = document.createElement("span");
           $title.classList.add("code-title");
-          $title.insertAdjacentHTML(
-            "afterbegin",
-            '<i class="arrow fas fa-chevron-right fa-fw"></i>'
-          );
-          $title.addEventListener(
-            "click",
-            () => {
-              $chroma.classList.toggle("open");
-            },
-            false
-          );
+          // $title.insertAdjacentHTML(
+          //   "afterbegin",
+          //   '<i class="arrow fas fa-chevron-right fa-fw"></i>'
+          // );
+          // $title.addEventListener(
+          //   "click",
+          //   () => {
+          //     $chroma.classList.toggle("open");
+          //   },
+          //   false
+          // );
           $header.appendChild($title);
           const $ellipses = document.createElement("span");
           $ellipses.insertAdjacentHTML(
